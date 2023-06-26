@@ -1,0 +1,32 @@
+.mat-mdc-table {
+    table-layout: auto;
+    white-space: normal;
+    background-color: #FF007F;
+    border-radius: 15px 0px ;
+    width: 75vw;
+  }
+  td{
+    background-color: white;
+    text-align: center;
+    }
+    th{
+      color: white;
+      text-align:center;
+
+    }
+    .img{
+      width: 80px;
+      height: 60px;
+      border-radius: 10px;
+      margin: 7px;
+    }
+    .product{
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+    }
+    .btn{
+      display: flex;
+  justify-content: flex-end;
+
+    }

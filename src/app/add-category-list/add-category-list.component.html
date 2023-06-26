@@ -1,0 +1,52 @@
+<div class="container mt-5 p-3" style="width:80vw;border:1px solid black;">
+    <form [formGroup]="formdata" (ngSubmit)="submit()">
+        <div class="row">
+            <div class="col-md-8 p-2">
+                <div class="mb-3">
+                    <label for="id1" class="form-label">Category Name</label>
+                    <input type="text" class="form-control" id="id1" formControlName="category">
+                </div>
+                <div class="mb-3">
+                    <label for="id2" class="form-label">Description</label>
+                    <textarea class="form-control" id="id2" rows="10" formControlName="description"></textarea>
+                </div>
+            </div>
+            <div class="col-md-4 p-2">
+                <label for="parent_category" class="form-label">Parent Categary</label>
+                <mat-form-field>
+                    <mat-select name="category" formControlName="parent_category">
+                        <mat-option *ngFor="let item of categories" [value]="item">
+                            {{item}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+
+                <!-- drag image -->
+
+                <!-- <div class="mt-3 custom-border" formControlName="Image">
+                        <label for="image" class="form-label"  >Image</label><br>
+                       <ngx-dropzone (change)="onSelect($event)" id="_nghost-ivm-c77" >
+                          <ngx-dropzone-image-preview  ngProjectAs="ngx-dropzone-preview" *ngFor="let f of files" [file]="f" >
+                          </ngx-dropzone-image-preview>
+                        </ngx-dropzone> -->
+                <!-- </div><br> -->
+                <label for="image" class="form-label">Image</label><br>
+                <input type="file" accept="image/jpeg, image/png, image/jpg" id="file" class="file"
+                    formControlName="image"><br>
+                    <!-- <button type="submit" *ngIf="!isUpdate" class="btn create-catagary">Create Categary</button>
+                    <button type="submit" *ngIf="isUpdate" class="btn create-catagary">Create Categary</button>
+     -->
+
+                <button mat-raised-button color="accent" type="submit" *ngIf="!isUpdate" class=" btn mt-4">Create Sub_Caegory</button>
+                <button mat-raised-button color="accent" type="submit" *ngIf="isUpdate" class=" btn mt-4">Create Sub_Caegory</button>
+
+            </div>
+        </div>
+    </form>
+
+</div>
+
+
+
+
+<router-outlet></router-outlet>

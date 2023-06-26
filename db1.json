@@ -1,0 +1,167 @@
+{
+  "products": [
+    {
+      "Category": "jackets",
+      "Description": "Printed Denim jacket",
+      "Total_items": 1,
+      "Created_at": "14 sep 2009",
+      "Image": {},
+      "id": 1
+    },
+    {
+      "Category": "top",
+      "Description": "Floral Print A-line top",
+      "Total_items": 3,
+      "Created_at": "5 march 2002",
+      "Image": {},
+      "id": 2
+    },
+    {
+      "Category": "Casual shoes",
+      "Description": "Smashic Brand logo shoes",
+      "Total_items": 1,
+      "Created_at": "17 july 2005",
+      "Image": {},
+      "id": 3
+    },
+    {
+      "Category": "Watches",
+      "Description": "ninja call ultra smartwatch",
+      "Total_items": 3,
+      "Created_at": "19 oct 2002",
+      "Image": {},
+      "id": 4
+    },
+    {
+      "Category": "Handbags",
+      "Description": "Textued tote bag",
+      "Total_items": 2,
+      "Created_at": "14 May 2020",
+      "Image": {},
+      "id": 5
+    },
+    {
+      "Created_at": "2023-06-24T14:17:05.393Z",
+      "category": "guhj",
+      "description": "hjkm",
+      "parent_category": "Women",
+      "Image": null,
+      "id": 6
+    },
+    {
+      "Created_at": "2023-06-24T14:20:24.486Z",
+      "category": "",
+      "description": "",
+      "parent_category": "",
+      "Image": null,
+      "id": 7
+    },
+    {
+      "Created_at": "2023-06-24T14:31:11.483Z",
+      "category": "jeans",
+      "description": "polo",
+      "parent_category": "Women",
+      "Image": null,
+      "id": 8
+    },
+    {
+      "Created_at": "2023-06-24T14:32:53.520Z",
+      "category": "",
+      "description": "vkm,",
+      "parent_category": "",
+      "Image": null,
+      "id": 9
+    },
+    {
+      "category": "mkl,",
+      "description": "jkl,",
+      "parent_category": "Women",
+      "Image": null,
+      "id": 10
+    },
+    {
+      "category": "ghiol",
+      "description": "yhi",
+      "parent_category": "",
+      "Image": null,
+      "id": 11
+    },
+    {
+      "category": "j",
+      "description": "",
+      "parent_category": "",
+      "Image": null,
+      "id": 12
+    },
+    {
+      "category": "jeans",
+      "description": "polo",
+      "parent_category": "Women",
+      "Image": null,
+      "id": 13
+    },
+    {
+      "category": "jeans",
+      "description": "polo",
+      "parent_category": "Women",
+      "Image": null,
+      "id": 14
+    },
+    {
+      "category": "",
+      "description": "",
+      "parent_category": "",
+      "Image": null,
+      "id": 15
+    },
+    {
+      "category": "jeans",
+      "description": "polo",
+      "parent_category": "",
+      "Image": null,
+      "id": 16
+    },
+    {
+      "category": "",
+      "description": "",
+      "parent_category": "",
+      "Image": null,
+      "id": 17
+    },
+    {
+      "category": "toys",
+      "description": "gjk",
+      "parent_category": "",
+      "Image": null,
+      "id": 18
+    },
+    {
+      "category": "",
+      "description": "",
+      "parent_category": "",
+      "Image": null,
+      "id": 19
+    },
+    {
+      "category": "gyhj",
+      "description": "ghnj",
+      "parent_category": "",
+      "Image": null,
+      "id": 20
+    },
+    {
+      "category": "toys",
+      "description": "desxz",
+      "parent_category": "Kids",
+      "Image": null,
+      "id": 21
+    },
+    {
+      "category": "",
+      "description": "",
+      "parent_category": "",
+      "Image": null,
+      "id": 22
+    }
+  ]
+}
